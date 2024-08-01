@@ -332,3 +332,6 @@ a:hover {
     width: 300px;
   }
 }
+.photo-label {
+  margin-bottom: 15px; /* Adjust the value as needed */
+}
