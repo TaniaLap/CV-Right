@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #3694a0;
+  --primary-color: rgb(201, 160, 66);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   --secondary-color: #dffaf8;
   --heading-font-family: "Playfair Display", serif;
@@ -34,26 +34,26 @@ li a {
   width: 500px;
 }
 .logo {
-  color: #3694a0;
+  color: rgb(201, 160, 66);
   text-decoration: none;
   font-family: Montserrat, sans-serif;
   box-sizing: border-box;
   cursor: pointer;
   letter-spacing: 2px;
   line-height: 60px;
-  text-shadow: rgb(155, 198, 196) 2px 2px 3px;
+  text-shadow: rgb(124, 124, 124) 2px 2px 3px;
   text-transform: uppercase;
   font-weight: bold;
 
   padding-right: 60px;
 }
 .logo:hover {
-  color: #3694a0;
+  color: rgb(201, 160, 66);
 }
 body {
   margin-bottom: 50px;
   font-family: var(--default-font-family);
-  background-color: rgb(242, 239, 233);
+  background-color: rgb(97, 97, 97);
 }
 
 h1,
@@ -70,7 +70,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: var(--primary-color);
+  color: var(--heading-font-family);
 }
 
 h3 {
